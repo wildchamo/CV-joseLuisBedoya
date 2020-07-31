@@ -1,0 +1,17 @@
+/* reglas
+selectores 
+declaraciones 
+propiedades 
+valores */
+header{
+    background: pink;
+}
+
+/* 
+selector de etiqueta header-footer blablabla
+selector descendente para ir a buscar hijos 
+body header div nav ol li a 
+class todos los que tienen clase se marcan con un punto! así .linked
+id: elemento unico 
+#yonoseque
+*/
