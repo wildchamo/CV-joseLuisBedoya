@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="estilos/estilos.css"/>
 </head>
 <body>
-    <header>
+    <header class="header"
         <div>
-            <figure>
+            <figure class="logo ">
                 <img src="images/JLlogo.jpg" alt="Logo de http://leonidasesteban.com">
             </figure>
 
-        <nav>
+        <nav class="menú">
             <ol>
                 <li>
                     <a class="linked" href="#portafolio">portafolio</a>
@@ -30,51 +30,49 @@
         </div>
     </header>
 
-    <section>
+
+    <section class="hero">
         <h1>
             Hola soy <strong> Joselo! </strong> <br> Desarrollador web y <strong> esas vueltas </strong>  
         </h1>
         <img src="Images/hero.jpg" width="500" height="300" alt="imagenprincipaldelsitio">
     </section>
 
-    <section id="portafolio">
+    <section id="portafolio" class="portfolio">
         <h2>Portafolio (proyectos destacados)</h2>
-        <article>
-            <h3>Proyecto1</h3>
-            <figure>
-                <img width="500"  src="Images/conferencia.jpg" alt="proyecto del curso de react native "/>
-            </figure>   
-            <h6>React Nativ / React</h6>
-            <p><small><strong>Fecha:</strong>  30/07/2020</small></p>
-            <p><small><strong>Puedes verlo en:</strong> www.blablabla.com  </small></p>
-            <p><small> Esta vuela fue el resultado de X dias de trabajo para crear una manera de ta ta ta para que blablabla </p>
-
+        <article class="proyecto">
+            <h3 class="proyect-title">Proyecto1</h3>
+            <h6 class="proyect-subtitle">React Nativ / React</h6>
+            <p class="project-date"><small><strong>Fecha:</strong>  30/07/2020</small></p>
+            <p class="project-url"><small><strong>Puedes verlo en:</strong> www.blablabla.com  </small></p>
+            <p class="project-description"><small> Esta vuela fue el resultado de X dias de trabajo para crear una manera de ta ta ta para que blablabla </p>
+           <figure class="project-image Container">
+                <img class="project-image" width="500"  src="Images/conferencia.jpg" alt="proyecto del curso de react native "/>
+           </figure>
+                
     </section>
 
     <section id="experiencia">
         <h2>Mas sobre mi experiencia</h2>
 
-        <article>
-            <figure>
-                <img width="500"  src="Images/conferencia.jpg" alt="proyecto del curso de react native "/>
-            </figure>
-            <h3>
-                conferencia de yo no se que 
-            </h3>
-            <p> Que fue lo que paso aquí socio?</p>
-            <a href="https://www.youtube.com/watch?v=8Be-7rsQv9c" target="_blank"> ver Platica </a>
-        </article>
+        <article class="proyecto">
+            <h3 class="event-title">eventoblababla</h3>
+            <p class="event-url"><small><strong>Puedes verlo en:</strong> www.blablabla.com  </small></p>
+            <p class="event-description"><small> Esta vuela fue el resultado de X dias de trabajo para crear una manera de ta ta ta para que blablabla </p>
+           <figure class="event-image Container">
+                <img class="event-image" width="500"  src="Images/conferencia.jpg" alt="proyecto del curso de react native "/>
+           </figure>
     </section>
 
-    <section id="contacto">
-        <form action="/suscripcion/"> 
+    <section id="contacto" class="contact">
+        <form action="/suscripcion/" class="form-email"> 
             <h3>¿Creamos algo juntos?</h3>
         <input type="text" placeholder="¡Déjame tu email!" value="@gmail.com">
         <button>Enviar </button>
         </form>
     </section>
 
-    <footer>
+    <footer class="footerr">
         footer
     </footer>
 </body>
