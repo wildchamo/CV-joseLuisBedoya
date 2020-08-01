@@ -3,9 +3,9 @@ selectores
 declaraciones 
 propiedades 
 valores */
-header{
+/* header{
     background: pink;
-}
+} */
 
 /* 
 selector de etiqueta header-footer blablabla
@@ -15,3 +15,17 @@ class todos los que tienen clase se marcan con un punto! así .linked
 id: elemento unico 
 #yonoseque
 */
+
+
+
+body{
+    font-family: "Source Sans Pro",sans-serif;
+} 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: "Fjalla One",Times;
+}
