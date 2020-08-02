@@ -70,3 +70,8 @@ color: whitex;
     color: white;
     text-decoration: none;
 }
+
+.proyecto{
+   border: 1px solid gray;
+   border-radius: 10px;
+}
