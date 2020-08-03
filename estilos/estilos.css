@@ -64,8 +64,27 @@ h1 strong{
 
 .header{
 background-color: #1b2127;  
-color: whitex;  
+color: white;
+height: 90px;  
+display: flex;
+justify-content: space-between;
 }
+.header ol {
+display: flex;
+height: inherit ;
+}
+.menú{
+    height: inherit;
+}
+ol,ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+figure{
+    margin: 0;
+}
+
 .header a{
     color: white;
     text-decoration: none;
@@ -74,4 +93,5 @@ color: whitex;
 .proyecto{
    border: 1px solid gray;
    border-radius: 10px;
+   display: flex;
 }
