@@ -56,18 +56,37 @@ h1 strong{
     background-size: 500px 300px  ;
     background-repeat: no-repeat;
     background-position-x:right ;
-    background-color:#b4b9bd ;
+    background-color:#1b2127 ;
     
 }
 figure{
     margin: 0;
 }
+.menú{
+    height: inherit;
+}
+.header ol{
+    display: flex;
+    height: inherit;
+    align-items: center;
 
-
+}
+.header ol li{
+    height: inherit;
+    ;
+}
+.header a{
+    display:flex;
+    align-items: center;
+    height: inherit;
+    padding: 0 10px;
+}
 .header{
 background-color: #1b2127;  
 color: white;  
 display: flex;
+justify-content: space-between;
+height: 90px;
 }
 .header a{
     color: white;
