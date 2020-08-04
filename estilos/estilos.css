@@ -125,6 +125,7 @@ ol,ul{
 }
 .event-list{
     display: flex;
+    flex-wrap: wrap;
     }
     
 .event{
@@ -226,5 +227,6 @@ margin: 0 auto;
 display: inherit;
 justify-content: inherit;
 align-items: inherit;
-height: inhe;
+height: inherit;
+flex-wrap: inherit;
 }
