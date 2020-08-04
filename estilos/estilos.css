@@ -45,11 +45,9 @@ h1 strong{
     color: #026fff;
 }
 .project-details{
-    width: 500px;
+    width: 5000px;
 }
-.project-image-Container{
-    width: 500px;
-}
+
 
 .hero{
     height: 300px;
@@ -123,6 +121,7 @@ figure{
 }
 .proyecto img{
     justify-content: right;
+    background-position-x:right ;
 }
 ol,ul{
     margin: 0 ;
@@ -252,3 +251,6 @@ height: inherit;
 flex-wrap: inherit;
 }
 
+.portfolio{
+    justify-content: space-between;
+}
