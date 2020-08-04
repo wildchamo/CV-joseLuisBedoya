@@ -180,17 +180,19 @@ background:#f4fbff;
     background-size: 50px 50px ;
 }
 .social-link.twitter{
-    background-img:url() ;
-}
-.social-link.facebook {
-    background-img:url() ;
+    background-image:url("../Images/twitter.svg") ;
     background-size: 50px 50px ;
 }
+.social-link.facebook{
+    background-image:url("../Images/fb.svg") ;
+    background-size: 50px 50px ;
+
+}
 .social-link.github{
-    background-img:url() ;
+    background-image:url("../Images/github.svg") ;
     background-size: 50px 50px ;
 }
 .social-link.instagram{
-    background-img:url() ;
+    background-image:url("../Images/ristrigin.svg") ;
     background-size: 50px 50px ;
 }
