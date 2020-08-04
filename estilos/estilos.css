@@ -105,6 +105,9 @@ align-items:center;
    display: flex;
    justify-content: space-between;
 }
+.proyecto img{
+    justify-content: right;
+}
 ol,ul{
     margin: 0 ;
     padding: 0;
