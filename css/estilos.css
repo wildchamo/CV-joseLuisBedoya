@@ -91,6 +91,22 @@ justify-content: space-between;
 height: 70px;
 align-items:center;
 }
+.header ol {
+display: flex;
+height: inherit ;
+}
+.menú{
+    height: inherit;
+}
+ol,ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+figure{
+    margin: 0;
+}
+
 .header a{
     color: white;
     text-decoration: none;
@@ -179,7 +195,6 @@ background:#f4fbff;
     width: 50px;
     height: 50px;
     background-size: 50px 50px ;
-    margin: 0 10px;
 }
 .social-link.twitter{
     background-image:url("../Images/twitter.svg") ;
@@ -187,33 +202,12 @@ background:#f4fbff;
 }
 .social-link.facebook{
     background-image:url("../Images/fb.svg") ;
-    
+
 
 }
 .social-link.github{
     background-image:url("../Images/github.svg") ;
-   
 }
 .social-link.instagram{
     background-image:url("../Images/ristrigin.svg") ;
-    
-}
-.form-email input{
-border-color:gray;
-padding: 5px 20px;
-border-style: solid;
-}
-.form-email button{
-    display:block;
-    margin-top: 5px;
-    background: transparent;
-    color: white;
-    padding: 10px 0px;
-    padding: 10px 0px;
-    border-radius: 5px;
-    width: 100px;
-
-}
-.letras5{
-    font-size: large;
 }
