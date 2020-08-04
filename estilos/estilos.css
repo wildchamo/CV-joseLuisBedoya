@@ -102,6 +102,8 @@ align-items:center;
 .proyecto{
    border: 1px solid gray;
    border-radius: 10px;
+   display: flex;
+   justify-content: space-between;
 }
 ol,ul{
     margin: 0 ;
@@ -230,7 +232,4 @@ align-items: inherit;
 height: inherit;
 flex-wrap: inherit;
 }
-.vuelta{
-width: 5000px;
-    
-}
+
