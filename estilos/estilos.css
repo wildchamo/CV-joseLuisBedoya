@@ -170,3 +170,27 @@ background:#f4fbff;
     display:flex;
     align-items: center;
 }
+.social{
+
+}
+.social-link{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px ;
+}
+.social-link.twitter{
+    background-img:url() ;
+}
+.social-link.facebook {
+    background-img:url() ;
+    background-size: 50px 50px ;
+}
+.social-link.github{
+    background-img:url() ;
+    background-size: 50px 50px ;
+}
+.social-link.instagram{
+    background-img:url() ;
+    background-size: 50px 50px ;
+}
