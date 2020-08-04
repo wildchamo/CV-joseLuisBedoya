@@ -165,4 +165,8 @@ background:#f4fbff;
 
 .contact{
     background-color: #056fff;
+    color:white;
+    height: 150px;
+    display:flex;
+    align-items: center;
 }
